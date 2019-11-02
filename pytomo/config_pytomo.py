@@ -44,15 +44,15 @@ CENTRALISE_DATA = False
 CENTRALISATION_SERVER = 'pytomo.dtdns.net'
 
 # loop on input links
-#LOOP = False
 LOOP = True
+#LOOP = True
 
 # take related links
-RELATED = True
-#RELATED = False
+#RELATED = True
+RELATED = False
 
 # Image file to save the graphs
-PLOT = True
+PLOT = False
  # List containig the column names to be plotted
 COLUMN_NAMES = ['DownloadBytes', 'MaxInstantThp']
 # Choose from  [ PingMin , PingAvg , PingMax , DownloadTime, VideoDuration
@@ -138,7 +138,7 @@ DNS_TIMEOUT = 4.0
 EXTRA_NAME_SERVERS = [GOOGLE_PUBLIC_DNS, OPEN_DNS]
 #EXTRA_NAME_SERVERS = []
 # also download video from IPs resolved by other DNS servers
-DOWNLOAD_FROM_EXTRA_IPS = True
+DOWNLOAD_FROM_EXTRA_IPS = False
 
 # just for sharing the servers between the modules
 EXTRA_NAME_SERVERS_CC = []
